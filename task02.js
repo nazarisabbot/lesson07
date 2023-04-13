@@ -8,6 +8,7 @@ function getAverageValue([...arr]) {
     res += arr[i];
   }
 
+  res = Math.floor(res / arr.length);
   return res;
 }
 
